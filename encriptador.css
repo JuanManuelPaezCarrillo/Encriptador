@@ -1,0 +1,41 @@
+
+*color{
+    background: #F3F5FC;
+}
+.logo{
+    width: Fixed (120px);
+    height: Fixed (48px);
+    top: 40px;
+    left: 40px;
+    gap: 40px;
+}
+#muñeco{
+    width: 336px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;
+    margin-left: 60%;
+}
+.botones{
+    width: Fixed (680px);
+    height: Hug (67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+}
+
+#rectangulo-vertical {
+  height: 400px;
+  width: 300px;
+  background-color: #ccc;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+#muñeco {
+  display: inline-block;
+  vertical-align: top;
+}
+    
+    
+
