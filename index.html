@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="encriptador.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
     <script src="encriptador.js"></script>
     <title>Encriptador de mensajes</title>
 </head>
@@ -14,18 +15,31 @@
     </header> 
 
     <main>   
-    <div class="contenedordetexto">
-        <textarea placeholder="Ingrese el texto aquí"></textarea>
-    </div>
-    <div>
-        <img src="imagenes/Muñeco.svg" alt="Muñeco" id="muñeco">
-    </div>  
-    <div class="botones">
-        <button>Encriptar</button>
-        <button>Desencriptar</button>
-    </div>
-</main>   
+    
+    
+        <div class="contenedor-texto">
+            <textarea placeholder="Ingrese el texto aquí"></textarea>
+        </div>
+        
+        <div class="muneco">
+            <img src="imagenes/Muñeco.svg" alt="Muñeco"> 
+        </div>       
+ 
+    
+        <div class="aviso">
+            <p>Solo letras minúsculas y sin acentos</p>
+            <img src="imagenes/alerta.svg" alt="alerta" id="alerta">
+        </div>
+        <div class="botones">
+            <button class="btn-encriptar" value="Encriptar">Encriptar</button>
+            <button class="btn-desencriptar" value="desencriptar">Desencriptar</button>
+        </div>
+        <div class="rectangulo"></div>
+            
+        
+           
 
    
+</main>   
 </body>
 </html>
