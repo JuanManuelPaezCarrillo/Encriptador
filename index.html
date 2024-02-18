@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="encriptador.css">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
     <script src="encriptador.js"></script>
     <title>Encriptador de mensajes</title>
@@ -11,35 +11,30 @@
 <body>
     <header>
         <p>Encriptador 1 -Desktop</p> 
-        <img  src="imagenes/Logo.svg" alt="logo del proyecto width 250px">      
+        <img  src="imagenes/Logo.svg" alt="logo del proyecto">      
     </header> 
 
-    <main>   
-    
-    
+    <main class="principal">    
         <div class="contenedor-texto">
             <textarea placeholder="Ingrese el texto aquí"></textarea>
-        </div>
-        
-        <div class="muneco">
-            <img src="imagenes/Muñeco.svg" alt="Muñeco"> 
         </div>       
- 
-    
+            
+        <div class="rectangulo">           
+            <img src="imagenes/Muñeco.svg" alt="Muñeco" class="muneco">
+            <p>fdsfklsdmaklfmkdlfmdkslafm</p>            
+        </div>             
+               
+
         <div class="aviso">
             <p>Solo letras minúsculas y sin acentos</p>
             <img src="imagenes/alerta.svg" alt="alerta" id="alerta">
         </div>
-        <div class="botones">
-            <button class="btn-encriptar" value="Encriptar">Encriptar</button>
-            <button class="btn-desencriptar" value="desencriptar">Desencriptar</button>
-        </div>
-        <div class="rectangulo"></div>
-            
-        
-           
 
-   
+        <div class="contenedor-botones">
+            <input type="button" class="btn-encriptar" value="Encriptar"></button>
+            <input type="button"" class="btn-desencriptar" value="Desencriptar"></button>
+        </div>
+          
 </main>   
 </body>
 </html>

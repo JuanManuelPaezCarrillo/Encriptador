@@ -9,12 +9,26 @@
     left: 40px;
     gap: 40px;
 }
+.muneco{
+    width: 366px;
+    height: 304px;
+    top: 283px;
+    left: 1032px;   
+}
+.muneco{
+    position: absolute;
+    top: 70%;
+    left: 68%;
+   
+}
 .rectangulo{
-    width: 100px;
-    height: 300px;
-    background-color: #F3F5FC;
+    width: 400px;
+    height: 944px;
+    top: 40px;
+    left: 1000px;
+    color: #ffffff;
+    box-shadow: #000000 8%;
     border: 2px solid #333;
-    border-radius: 10px;
-    padding: 20px;
-    box-sizing: border-box;
+    border-radius: 32px;
+    margin-left: 67%;
 }
