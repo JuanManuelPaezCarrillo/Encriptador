@@ -3,11 +3,26 @@
     background: #F3F5FC;
 }
 .logo{
-    width: Fixed (120px);
-    height: Fixed (48px);
-    top: 40px;
-    left: 40px;
-    gap: 40px;
+    position: relative;
+    width: 120px;
+    height: 48px;
+    margin: 2%;
+}
+#principal{
+    display: inline-block;
+}
+.contenedor{
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 20%;
+}
+textarea{
+    width: 500px;
+    height: 200px;
+}
+::placeholder{
+    color: rgba(10, 56, 113, 1);
+    text-align: align center 20px;
 }
 .muneco{
     width: 366px;
@@ -16,12 +31,12 @@
     left: 1032px;   
 }
 .muneco{
-    position: absolute;
-    top: 70%;
-    left: 68%;
-   
+    position: relative;
+    top: 30%;
+    left: 8%;   
 }
 .rectangulo{
+    position: absolute;
     width: 400px;
     height: 944px;
     top: 40px;
@@ -30,5 +45,44 @@
     box-shadow: #000000 8%;
     border: 2px solid #333;
     border-radius: 32px;
-    margin-left: 67%;
+    margin: o auto;
+    box-sizing: border-box;
 }
+.aviso{
+    position: absolute;
+    display: inline;
+    margin-top: 49%;
+    margin-left: 19%;
+    font-size: small;
+    color: rgba(73, 80, 87, 1);
+}
+.botones{
+    width: 680px;
+    height: hug (67px);
+    top: 885px;
+    left: 240px;
+    gap: 24px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 5%;
+}
+.btn-encriptar{
+    width: 300px;
+    height: 57px;
+    border-radius: 24px;
+    padding: 20px;
+    gap: 8px; 
+    margin-right: 15px;
+    margin-left: -40px;
+    background: rgba(10, 56, 113, 1);
+    color: #ffffff;
+}
+.btn-desencriptar{
+    width: 300px;
+    height: 57px;
+    border-radius: 24px;
+    padding: 20px;
+    gap: 8px; 
+    background: rgba(216, 223, 232, 1);
+}
+
