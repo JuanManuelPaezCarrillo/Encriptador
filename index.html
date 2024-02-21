@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
-    <script src="encriptador.js"></script>
     <title>Encriptador de mensajes</title>
 </head>
 <body>
@@ -14,23 +13,27 @@
         <img  src="imagenes/Logo.svg" alt="logo del proyecto" class="logo">      
     </header> 
 
-    <main id="principal">    
-        <div class="contenedor">
+    <main id="main">    
+        <div class="ingresar-texto">
             <textarea placeholder="Ingrese el texto aquí"></textarea>
         </div>       
             
         <div class="rectangulo">           
-            <img src="imagenes/Muñeco.svg" alt="Muñeco" class="muneco">                       
+            <img src="imagenes/Muñeco.svg" alt="Muñeco" class="muneco"><textarea class="resultado"></textarea>                       
         </div>   
                
         <div class="aviso">
-            <p><img src="imagenes/alerta.svg" alt="alerta"> Solo letras minúsculas y sin acentos</p>            
+            <p><img src="imagenes/alerta.svg" alt="alerta" class="alerta"> Solo letras minúsculas y sin acentos</p>            
         </div>
 
         <div class="botones">
-            <input type="button" class="btn-encriptar" value="Encriptar"></button>
-            <input type="button"" class="btn-desencriptar" value="Desencriptar"></button>
-        </div>         
-</main>   
+            <button onclick="encriptar" class="btn-encriptar" value="Encriptar">Encriptar</button>
+            <button onclick="desencriptar" class="btn-desencriptar" value="Desencriptar">Desencriptar</button>
+        </div>
+<footer>Juan Manuel Paez C</footer> 
+</main>
+
+<script src="encriptador.js"></script>  
+
 </body>
 </html>
