@@ -12,24 +12,29 @@
     <header>         
         <img  src="imagenes/Logo.svg" alt="logo del proyecto" class="logo">      
     </header> 
-
-    <main id="main">    
-        <div class="ingresar-texto">
-            <textarea placeholder="Ingrese el texto aquí"></textarea>
-        </div>       
-            
-        <div class="rectangulo">           
-            <img src="imagenes/Muñeco.svg" alt="Muñeco" class="muneco"><textarea class="resultado"></textarea>                       
-        </div>   
-               
-        <div class="aviso">
-            <p><img src="imagenes/alerta.svg" alt="alerta" class="alerta"> Solo letras minúsculas y sin acentos</p>            
+      
+    <div class="container">
+        <div class="encriptar"> 
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="30" placeholder="Ingrese el texto aquí"></textarea>
+        </div>            
+        <div class="recomendaciones">
+            <p><img src="imagenes/alerta.svg" alt="simbolo"> Solo letras minúsculas y sin acentos</p>            
         </div>
-
         <div class="botones">
-            <button onclick="encriptar" class="btn-encriptar" value="Encriptar">Encriptar</button>
-            <button onclick="desencriptar" class="btn-desencriptar" value="Desencriptar">Desencriptar</button>
+            <button onclick="encriptar()" type="button" class="btn-encriptar" value="encriptar">Encriptar</button>
+            <button onclick="desencriptar()" type="button" class="btn-desencriptar" value="desencriptar">Desencriptar</button>            
         </div>
+    </div>
+    <div class="encriptado">           
+        <img src="imagenes/Muñeco.svg" alt="Muñeco" class="muñeco" id="muñeco">       
+         <div class="textoEncriptado" id="textoEncriptado">
+            <h2 id="tituloMensaje">Ningún mensaje fue encontrado</h2>
+            <br>
+            <p id="parrafo" class="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
+            <textarea name="mensaje" id="mensaje" class="mensaje"></textarea>
+         </div>           
+    </div>   
+
 <footer>Juan Manuel Paez C</footer> 
 </main>
 
