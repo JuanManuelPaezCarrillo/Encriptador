@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    font-size: 'inter', sans-serif 
 }
 body{
     background-color: rgba(216, 223, 232, 1);   
@@ -58,6 +57,7 @@ body{
     font-size: 10%;
     width: 80%;
     cursor: pointer;
+    
 }
 .btn-encriptar{
     width: 300px;
@@ -68,9 +68,12 @@ body{
     gap: 8px; 
     margin-right: 15px;
     margin-left: -40px;     
-    font-size: 17px; 
+    font-size: 20px; 
     background-color: rgba(10, 56, 113, 1); 
     color: white; 
+    font-family: "inter";
+    font-style: normal;
+
 }
 .btn-desencriptar{
     width: 300px;
@@ -79,30 +82,23 @@ body{
     padding: 20px;
     gap: 8px; 
     background: rgba(216, 223, 232, 1);
-    font-size: 17px;
+    font-size: 20px;
+    font-weight: 200;
+    font-family: "inter";
+    font-style: normal;
 }
-.btn-encriptar:hover{
-    margin-bottom: 0.3%;
-    width: 25%;
-    padding: 2%;
-    transition: 0.5s;   
-    margin-right: 15px;
-    margin-left:  -20px; 
-}
+.btn-encriptar:hover,
 .btn-desencriptar:hover{
     margin-bottom: 0.3%;
     width: 25%;
     padding: 2%;
-    transition: 0.5s;   
-    margin-right: 25px;
-    margin-left:  15px;
+    transition: 0.5s; 
 }
 .muñeco{
-    width: 280px;
-    height: 204px;
+    width: 400px;
+    height: 300px;
     position: relative;
-    top: 20%;
-    left: 8%;   
+    top: 20%;   
 }
 .encriptado{
     position: absolute;
@@ -115,33 +111,87 @@ body{
     border: none;
     border-radius: 32px;  
     font-family: "inter"; 
+    font-style: normal;
+    text-align:center;
 }
 .textoEncriptado{
     position: absolute;
     width: 250px;
     height: 320px;
     display: block;
-    top: 50%;
+    top: 65%;
     left: 20%;
     text-align:center;
+    font-size: 110%;
 }
-.mensaje{
+.tituloMensaje{
+    width: 100%;
+    font-family: "inter";
+    font-style: normal;
+    font-size: 28px;
+    font-weight: bolder;
+}
+.encriptado p{
+    font-size: larger;
+}
+.pie-de-pagina{
     position: absolute;
-    width: 340px;
-    height: 200px;
-    top: 39%;
-    left: -19%;
-    border-radius: 10%;
-}
-footer{
-    position: relative;   
-    top: 110%;
-    left: 4%;
+    font-size: small;   
+    top: 124%;
+    left: 1%;
     color: 10, 56, 113, 1;
 }
-
-
-
-
-
-
+@media(max-width: 57.sem){
+    .container{
+        display: flex;
+        flex-direction: row;
+    }
+    .encriptado{
+        width: 100%;
+    }
+    .texto{
+        width: 100%;
+        height: 60%;
+        left: 10%;
+        top: 5%;
+    }
+    .recomendaciones{
+        width: 80%;
+        left: 10%;
+        top: 67%;
+    }
+    .recomendaciones{
+        font-size: 16px;
+    }
+    .botones{
+        width: 80%;
+        left: 10%;
+        top: 70%;
+    }
+    .btn-encriptar,
+    .btn-desencriptar{
+        width: 48%;
+        border-radius: 16px;
+    }
+    .btn-encriptar:hover,
+    .btn-desencriptar:hover{
+        margin: 0.3%;
+        width: 45%;
+        padding: 2%;
+    }
+    .encriptado{
+        width: 80%;
+        height: 15%;
+        left: 10%;
+        top: 80%;        
+    }
+    .mensaje{
+        width: 100%;
+        top: 5%;
+    }
+    .muñeco{
+        top: 0;
+        display: none;
+        visibility: hidden;
+    }
+}

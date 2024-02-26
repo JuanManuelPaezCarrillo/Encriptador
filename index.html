@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap" rel="stylesheet">
     <title>Encriptador de mensajes</title>
 </head>
 <body>
@@ -21,22 +20,20 @@
             <p><img src="imagenes/alerta.svg" alt="simbolo"> Solo letras minúsculas y sin acentos</p>            
         </div>
         <div class="botones">
-            <button onclick="encriptar()" type="button" class="btn-encriptar" value="encriptar">Encriptar</button>
-            <button onclick="desencriptar()" type="button" class="btn-desencriptar" value="desencriptar">Desencriptar</button>            
+            <button onclick="encriptar()" class="btn-encriptar" value="encriptar">Encriptar</button>
+            <button onclick="desencriptar()" class="btn-desencriptar" value="desencriptar">Desencriptar</button>            
         </div>
     </div>
     <div class="encriptado">           
         <img src="imagenes/Muñeco.svg" alt="Muñeco" class="muñeco" id="muñeco">       
          <div class="textoEncriptado" id="textoEncriptado">
-            <h2 id="tituloMensaje">Ningún mensaje fue encontrado</h2>
+            <h2 id="tituloMensaje" class="tituloMensaje">Ningún mensaje fue encontrado</h2>
             <br>
             <p id="parrafo" class="parrafo">Ingresa el texto que deseas encriptar o desencriptar</p>
-            <textarea name="mensaje" id="mensaje" class="mensaje"></textarea>
          </div>           
     </div>   
 
-<footer>Juan Manuel Paez C</footer> 
-</main>
+<footer class="pie-de-pagina">Creado por: Juan Manuel Páez Carrillo</footer> 
 
 <script src="encriptador.js"></script>  
 
