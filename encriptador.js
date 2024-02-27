@@ -38,7 +38,7 @@ let textoDesencriptado = texto
         document.getElementById("tituloMensaje").textContent = "Texto desencriptado con éxito";
         document.getElementById("parrafo").textContent = "¡Muy bien! Puedes ingresar un nuevo texto";
         setTimeout(function() {
-            window.location.reload(); // Recargar la página después de 1000 milisegundos (1 segundo)
+            window.location.reload(); // Recargar la página después de 10000 milisegundos (1 segundo)
         }, 10000);
     } else{
         tituloMensaje.textContent = "Ningún mensaje fue encontrado";
