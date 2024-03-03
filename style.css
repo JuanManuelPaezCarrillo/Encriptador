@@ -144,3 +144,66 @@ body{
     left: 1%;
     color: 10, 56, 113, 1;
 }
+@media screen and (max-width:57.5em){
+    
+    .container {
+        display: flex;
+        flex-direction: column;        
+    }
+    .encriptar{
+        width: 90%;
+    }
+    
+    .texto {
+        width: 80%;
+        height: 60%;
+        margin-top: 5%;
+        left: 10%;
+    }
+    
+    .recomendaciones {
+        width: 80%;
+        left: 10%;
+        margin-top: 140%;
+    }
+    .recomendaciones {
+        font-size: 14px;
+    }
+    .muñeco{
+        display: none;
+    }    
+    .botones {
+        width: 80%;
+        left: 30%;
+        margin-top: -45%;
+    }    
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 48%;
+        border-radius: 16%;        
+    }
+    .btn-encriptar:hover,
+    .btn-desencriptar:hover{
+        margin: 0.3%;
+        width: 47.5%;
+        padding: 1.8%;
+    }    
+    .encriptado {
+        width: 100%;
+        height: 25%;
+        top: 80%;
+        left: 10%;
+    }    
+    .textoEncriptado {
+        width: 70%;
+        top: 15%;
+        font-size: 16px;
+        text-align: center;
+        display: block;
+    }
+    .pie-de-pagina{
+        top: 105%;
+        left: 18%;
+    }
+    
+}
