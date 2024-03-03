@@ -121,7 +121,6 @@ body{
     display: block;
     top: 65%;
     left: 20%;
-    text-align:center;
     font-size: 110%;
 }
 .tituloMensaje{
@@ -153,7 +152,9 @@ body{
     .encriptar{
         width: 90%;
     }
-    
+    ::placeholder{
+        font-size: medium;
+    }
     .texto {
         width: 80%;
         height: 60%;
@@ -164,7 +165,7 @@ body{
     .recomendaciones {
         width: 80%;
         left: 10%;
-        margin-top: 140%;
+        margin-top: 133%;
     }
     .recomendaciones {
         font-size: 14px;
@@ -200,6 +201,12 @@ body{
         font-size: 16px;
         text-align: center;
         display: block;
+    }
+    .tituloMensaje{        
+        margin-left: -8%;
+    }
+    .parrafo{
+        margin-left: -7%;
     }
     .pie-de-pagina{
         top: 105%;
