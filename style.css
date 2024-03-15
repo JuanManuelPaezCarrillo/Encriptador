@@ -178,7 +178,7 @@ body{
     .botones {
         width: 80%;
         left: 30%;
-        margin-top: -55%;
+        margin-top: -35%;
         display: flex;
     }    
     .btn-encriptar,
