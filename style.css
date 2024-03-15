@@ -139,7 +139,7 @@ body{
 .pie-de-pagina{
     position: absolute;
     font-size: small;   
-    top: 108%;
+    top: 100%;
     left: 1%;
     color: 10, 56, 113, 1;
 }
