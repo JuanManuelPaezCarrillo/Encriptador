@@ -176,14 +176,14 @@ body{
         display: none;
     }    
     .botones {
-        width: 80%;
+        width: 60%;
         left: 30%;
-        margin-top: -15%;
+        margin-top: -55%;
         display: flex;
     }    
     .btn-encriptar,
     .btn-desencriptar {
-        width: 48%;
+        width: 38%;
         border-radius: 16%;        
     }
     .btn-encriptar:hover,
