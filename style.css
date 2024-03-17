@@ -2,7 +2,12 @@
     margin: 0;
     padding: 0;
 }
-body{
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
     background-color: rgba(216, 223, 232, 1);   
 }
 .logo{
@@ -143,7 +148,10 @@ body{
     color: 10, 56, 113, 1;
 }
 @media screen and (max-width:480px){
-    
+    .logo{
+        width: 100px;
+        height: 80px;
+    }    
     .container {
         width: 100%;
         display: flex;
@@ -158,31 +166,40 @@ body{
     }
     .texto {
         width: 80%;
-        height: 60%;
+        height: 40%;
         margin-top: 5%;
         left: 10%;
-    }    
+    } 
+    .simbolo{
+        height: 10px;
+    }   
     .recomendaciones {
         width: 80%;
-        left: 10%;
-        margin-top: 133%;
+        left: 2%;
+        margin-top: 95%;
     }
     .recomendaciones {
-        font-size: 14px;
+        font-size: 10px;
     }
     .muñeco{
         display: none;
-    }    
+    } 
+    
     .botones {
-        width: 80%;   
-        left: 30%;
-        margin-top: -4%;
-        display: flex;
+        width: 70%;    
+        left: 25%;
+        margin-top: -40%;
+        display: flex; 
+        button {
+            height: 30px;
+            padding: 5px 10px;
+            font-size: 14px;
+        }          
     }    
     .btn-encriptar,
     .btn-desencriptar {
-        width: 48%;        
-        border-radius: 16%;        
+        width: 48%;     
+        border-radius: 16%;      
     }
     .btn-encriptar:hover,
     .btn-desencriptar:hover{
@@ -192,26 +209,28 @@ body{
     }    
     .encriptado {
         display: flex;
-        width: 100%;
-        height: 25%;
-        top: 80%;
+        width: 75%;
+        height: 18%;
+        top: 60%;
         left: 10%;
     }    
     .textoEncriptado {
-        width: 70%;
+        width: 60%;
         top: 15%;
-        font-size: 16px;
         text-align: center;
         display: block;
     }
     .tituloMensaje{        
-        margin-left: -8%;
+        margin-left: -1%;
+        font-size: 20px;
     }
     .parrafo{
         margin-left: -7%;
+        font-size: 15px;
     }
     .pie-de-pagina{
-      margin-top: 8%;
-      margin-left: 18%;     
+      margin-top: -5%;
+      margin-left: 2%;  
+      font-size: 10px;   
     }
 }
