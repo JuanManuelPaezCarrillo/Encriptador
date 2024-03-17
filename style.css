@@ -41,7 +41,7 @@ body{
 .recomendaciones{
     position: absolute;
     display: flex;
-    margin-top: 37.5%;
+    margin-top: 44%;
     margin-left: 13%;
     font-size: small; 
     text-align: center;
@@ -213,7 +213,7 @@ body{
         margin-left: -7%;
     }
     .pie-de-pagina{
-        top: 105%;
+        margin-top: 80%;
         left: 18%;
     }
 }
