@@ -210,7 +210,7 @@ html, body {
     .encriptado {
         display: flex;
         width: 75%;
-        height: 18%;
+        height: 22%;
         top: 60%;
         left: 10%;
     }    
@@ -229,7 +229,7 @@ html, body {
         font-size: 15px;
     }
     .pie-de-pagina{
-      margin-top: -5%;
+      margin-top: 0%;
       margin-left: 2%;  
       font-size: 10px;   
     }
